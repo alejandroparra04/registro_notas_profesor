@@ -1,0 +1,81 @@
+/* Añadir esto al archivo TablaNotas.css */
+.tabla-notas-container{
+    margin-top: 0px;
+    overflow-y: auto; /* Agrega scroll cuando el contenido es más grande */
+    max-height: calc(100vh - 80px); /* Ajusta la altura para que no se superponga con el footer */
+}
+.titulo-tabla {
+    text-align: center;
+    
+  }
+  
+  /* Redondear los bordes de la tabla y las celdas */
+  table {
+    border-collapse: collapse;
+    width: calc(100% - 220px); /* Restar el ancho del sidebar */
+    border-radius: 8px;
+    overflow: hidden;
+    height: 30px;
+    margin-bottom: 100px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px; /* Bordes redondeados */
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Inputs dentro de las celdas para las notas */
+  td input {
+    border: none; /* Quitar bordes */
+    background-color: transparent; /* Fondo transparente */
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  /* Estilo de botones */
+  button {
+    /*background-color: #F9BE4B; /* Cambia el color del botón */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 8px; /* Bordes redondeados */
+    margin-bottom: 50px;
+  }
+  /* Estilo para el botón "Guardar" */
+.guardar-btn {
+  background-color: #668CD8; /* Color verde */
+}
+
+.guardar-btn:hover {
+  background-color: #2b4b8b; /* Color más oscuro al hacer hover */
+}
+
+/* Estilo para el botón "Actualizar" */
+.actualizar-btn {
+  background-color: #F9BE4B; /* Color rojo */
+}
+
+.actualizar-btn:hover {
+  background-color: #d8871e; /* Color más oscuro al hacer hover */
+}
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
