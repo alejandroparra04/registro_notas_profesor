@@ -1,0 +1,48 @@
+/* src/components/Header.css */
+.header {
+  background-color: #F8B32D; /* Color del Header */
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px; /* Ajusta según el tamaño que quieras */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100; /* Asegura que esté por encima del Sidebar */
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+  .menu-btn {
+    cursor: pointer;
+    display: flex; /* Habilita flexbox para alinear elementos */
+    align-items: center; /* Alinea verticalmente al centro */
+  }
+  
+  .menu-icon {
+    font-size: 40px; /* Tamaño del ícono del menú */
+    margin-left: 10px; 
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 24px; /* Aumenta el tamaño del título */
+    text-align: left; /* Asegúrate de que el texto esté alineado a la izquierda */
+    margin-right: 1100px; /* Ajusta el margen izquierdo si es necesario */
+    white-space: pre-line;
+}
+  
+  .user-info {
+    font-size: 20px;
+  }
+  

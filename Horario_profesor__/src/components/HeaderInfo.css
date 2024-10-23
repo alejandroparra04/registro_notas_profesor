@@ -1,0 +1,54 @@
+.header-info-container {
+    background-color: #f8e5c3; /* Color tono piel pastel */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 250px; /* Asegúrate de que haya espacio para el sidebar */
+    margin-top: 90px;
+  }
+  
+  .header-logo-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-placeholder {
+    width: 10px; /* Ajusta el ancho */
+    height: 10px; /* Ajusta la altura */
+    background-color: #ececec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 50px; /* Ajusta el margen derecho si es necesario */
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.logo {
+    width: 190px; /* Puedes reducirlo si es necesario */
+    height: auto; /* Mantiene la proporción del logo */
+    margin-bottom: 50px;
+}
+
+  .header-title {
+    font-size: 24px;
+    color: #333;
+    margin-left: 20px;
+  }
+  
+  .subject-info {
+    background-color: #668CD8; /* Color azul del bloque */
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    width: auto;
+  }
+  
+  .subject-info p {
+    margin: 5px 0;
+  }
+  
